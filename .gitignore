@@ -1,0 +1,11 @@
+/node_modules/*
+*.user
+*bowerrc
+project.lock.json
+.vs
+/packages/*
+/bower_models/*
+/bower_components/*
+/bin/*
+bin
+obj

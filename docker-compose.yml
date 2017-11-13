@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  onepoint:
+    image: onepoint
+    build:
+      context: ./onepoint
+      dockerfile: Dockerfile
