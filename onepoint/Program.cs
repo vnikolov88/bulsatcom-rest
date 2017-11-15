@@ -18,7 +18,7 @@ namespace onepoint
             Task.Run(async () =>
             {
                 var random = new Random();
-                var bulsatcom = new BulsatcomUtils("https://api.iptv.bulsat.com/");
+                var bulsatcom = new BulsatcomUtils("https://api.iptv.bulsat.com");
                 while (true)
                 {
                     var result = await bulsatcom.AuthenticateAsync("user", "pass");

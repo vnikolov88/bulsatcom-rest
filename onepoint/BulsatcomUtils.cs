@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
@@ -16,11 +18,14 @@ namespace onepoint
         private string _challengeKey;
         private string _ssbulsatapiKey;
 
+        private JObject jsonData;
+
+
         public BulsatcomUtils(string baseUrl)
         {
             _baseUrl = baseUrl;
-
         }
+
 
         public async Task<bool> AuthenticateAsync(string username, string password)
         {
@@ -39,7 +44,7 @@ namespace onepoint
                 client.DefaultRequestHeaders.Add("Connection", "keep-alive");
                 #endregion Set Request Headers
                 // First Auth request
-                using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}auth"))
+                using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/auth"))
                 {
                     var response = await client.SendAsync(request);
                     // Get response headers
@@ -56,7 +61,7 @@ namespace onepoint
                     }
                 }
                 // Second Auth request
-                using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}auth"))
+                using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/auth"))
                 {
                     client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
 
@@ -83,7 +88,76 @@ namespace onepoint
             return false;
         }
 
-        // TODO: implement get channels here
+        
+        public async Task<bool> ChannelAsync()
+        {
+            // Make the m3u call
+            using (var client = new HttpClient())
+            {
+                #region Set Request Headers
+                client.DefaultRequestHeaders.Add("Access-Control-Request-Headers", "ssbulsatapi");
+                client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
+                #endregion Set Request Headers
+                using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/tv/pcweb/live"))
+                {
+                    var response = await client.SendAsync(request);
+
+                    // get m3u json data
+                    if (response.StatusCode == HttpStatusCode.OK)
+                    {
+                        var data = response.Content.ReadAsStringAsync().Result;
+                        jsonData = JObject.Parse(data);
+                        
+                        if (jsonData.Count > 0) return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+
+        public async Task<bool> EPGAsync()
+        {
+            // request epg for all channels
+            for (int i = 0; i < jsonData.Count; i++)
+            {
+                string epg_name = jsonData[i]["epg_name"].ToString();
+
+                // Make the epg call
+                using (var client = new HttpClient())
+                {
+                    #region Set Request Headers
+                    client.DefaultRequestHeaders.Add("Access-Control-Request-Headers", "ssbulsatapi");
+                    client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
+                    #endregion Set Request Headers
+                    using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/epg/short"))
+                    {
+                        var postValues = new Dictionary<string, string>()
+                        {
+                            { "epg", "1week"},
+                            { "channel", epg_name}
+                        };
+
+                        request.Content = new FormUrlEncodedContent(postValues);
+                        var response = await client.SendAsync(request);
+
+                        // get epg json data for channel
+                        if (response.StatusCode == HttpStatusCode.OK)
+                        {
+                            var data = response.Content.ReadAsStringAsync().Result;
+                            JObject jsonItem = JObject.Parse(data);
+
+                            // add program json to m3u list item json
+                            jsonData[i]["program"] = jsonItem[0][1]["programme"];
+                        }
+                    }
+                }
+            }
+
+            return true;
+        }
+
 
         private string EncryptPassword(string password)
         {
