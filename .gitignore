@@ -9,4 +9,4 @@ project.lock.json
 /bin/*
 bin
 obj
-*/appsettings.Development.json
+onepoint/appsettings.Development.json

@@ -4,12 +4,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace onepoint
 {
+    public static class DefaultRequestHeadersEx
+    {
+        public static void AddBulsatcomHeaders(this HttpRequestHeaders headers)
+        {
+            #region Set Request Headers
+            headers.Add("Host", "api.iptv.bulsat.com");
+            headers.Add("User-Agent",
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
+            headers.Add("Accept", "*/*");
+            headers.Add("Accept-Language", "bg-BG,bg;q=0.8,en;q=0.6");
+            headers.Add("Accept-Encoding", "gzip, deflate, br");
+            headers.Add("Referer", "https://test.iptv.bulsat.com/iptv-login.php");
+            headers.Add("Origin", "https://test.iptv.bulsat.com");
+            headers.Add("Connection", "keep-alive");
+            #endregion Set Request Headers
+        }
+    }
+
+    public class Channel
+    {
+        [JsonProperty("source")]
+        public string Source { get; set; }
+    }
+
     public class BulsatcomUtils
     {
         private const string Platform = "pcweb";
@@ -32,17 +58,7 @@ namespace onepoint
             // Make the initial auth
             using (var client = new HttpClient())
             {
-                #region Set Request Headers
-                client.DefaultRequestHeaders.Add("Host", "api.iptv.bulsat.com");
-                client.DefaultRequestHeaders.Add("User-Agent",
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
-                client.DefaultRequestHeaders.Add("Accept", "*/*");
-                client.DefaultRequestHeaders.Add("Accept-Language", "bg-BG,bg;q=0.8,en;q=0.6");
-                client.DefaultRequestHeaders.Add("Accept-Encoding", "gzip, deflate, br");
-                client.DefaultRequestHeaders.Add("Referer", "https://test.iptv.bulsat.com/iptv-login.php");
-                client.DefaultRequestHeaders.Add("Origin", "https://test.iptv.bulsat.com");
-                client.DefaultRequestHeaders.Add("Connection", "keep-alive");
-                #endregion Set Request Headers
+                client.DefaultRequestHeaders.AddBulsatcomHeaders();
                 // First Auth request
                 using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/auth"))
                 {
@@ -87,7 +103,6 @@ namespace onepoint
 
             return false;
         }
-
         
         public async Task<bool> ChannelAsync()
         {
@@ -95,6 +110,7 @@ namespace onepoint
             using (var client = new HttpClient())
             {
                 #region Set Request Headers
+                client.DefaultRequestHeaders.AddBulsatcomHeaders();
                 client.DefaultRequestHeaders.Add("Access-Control-Request-Headers", "ssbulsatapi");
                 client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
                 #endregion Set Request Headers
@@ -106,9 +122,18 @@ namespace onepoint
                     if (response.StatusCode == HttpStatusCode.OK)
                     {
                         var data = response.Content.ReadAsStringAsync().Result;
-                        jsonData = JObject.Parse(data);
-                        
-                        if (jsonData.Count > 0) return true;
+                        try
+                        {
+                            var result = JsonConvert.DeserializeObject<List<Channel>>(data);
+                            jsonData = JObject.Parse(data);
+
+                            if (jsonData.Count > 0) return true;
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
                     }
                 }
             }
@@ -128,6 +153,7 @@ namespace onepoint
                 using (var client = new HttpClient())
                 {
                     #region Set Request Headers
+                    client.DefaultRequestHeaders.AddBulsatcomHeaders();
                     client.DefaultRequestHeaders.Add("Access-Control-Request-Headers", "ssbulsatapi");
                     client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
                     #endregion Set Request Headers

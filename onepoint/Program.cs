@@ -30,6 +30,7 @@ namespace onepoint
                     if (result)
                     {
                         // TODO: Get the channel list
+                        result = await bulsatcom.ChannelAsync();
                         result = await bulsatcom.EPGAsync();
                     }
 
