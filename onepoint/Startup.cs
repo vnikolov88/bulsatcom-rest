@@ -11,6 +11,13 @@ using Microsoft.Extensions.Options;
 
 namespace onepoint
 {
+    public class ConfigOptions
+    {
+        public string BaseUrl { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -23,6 +30,8 @@ namespace onepoint
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddOptions();
+            services.Configure<ConfigOptions>(Configuration.GetSection("ConfigOptions"));
             services.AddMvc();
         }
 

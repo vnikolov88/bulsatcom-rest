@@ -8,6 +8,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace onepoint
 {
@@ -15,16 +16,21 @@ namespace onepoint
     {
         public static void Main(string[] args)
         {
+            var webHost = BuildWebHost(args);
+            var optionsProvider =
+                (webHost.Services.GetService(typeof(IOptions<ConfigOptions>)) as IOptions<ConfigOptions>);
+            var options = optionsProvider?.Value;
             Task.Run(async () =>
             {
                 var random = new Random();
-                var bulsatcom = new BulsatcomUtils("https://api.iptv.bulsat.com");
+                var bulsatcom = new BulsatcomUtils(options.BaseUrl);
                 while (true)
                 {
-                    var result = await bulsatcom.AuthenticateAsync("user", "pass");
+                    var result = await bulsatcom.AuthenticateAsync(options.Username, options.Password);
                     if (result)
                     {
                         // TODO: Get the channel list
+                        result = await bulsatcom.EPGAsync();
                     }
 
                     // Note: wait from a min to 2 hours on each update
@@ -32,7 +38,7 @@ namespace onepoint
                     Thread.Sleep(random.Next(60 * 1000 * 1, 60 * 1000 * 60)); // 1 min to 60 min wait
                 }
             });
-            BuildWebHost(args).Run();
+            webHost.Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
