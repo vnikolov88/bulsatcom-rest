@@ -1,0 +1,2039 @@
+﻿[
+  {
+    "channel": "101",
+    "epg_name": "bnt1_hd",
+    "title": "БНТ 1 HD",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/bnt/smil:bnt1_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=5ZGTYm690H2hoQXGd1F4TGSrrIf-089A1BR_sxuNUx0=",
+    "lb": false,
+    "program": {
+      "startts": "1511189400",
+      "stopts": "1511192700",
+      "title": "Мускетарите 3",
+      "desc": "тв филм, 10, последен епизод"
+    }
+  },
+  {
+    "channel": "102",
+    "epg_name": "btv",
+    "title": "bTV HD",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/btv/smil:btv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=VYIvYWgQqVgqSMf7Ob6xfIlwUY95Mx-QXwWuYFjatcU=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "bTV Новините",
+      "desc": "информационна емисия"
+    }
+  },
+  {
+    "channel": "103",
+    "epg_name": "novatv",
+    "title": "Nova TV",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/nova/smil:novatv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=XZLF6eBgVhfvUrBkhjunemQ2vFlV8a6z6hVuh8nYj-w=",
+    "lb": false,
+    "program": {
+      "startts": "1511188200",
+      "stopts": "1511193300",
+      "title": "Премиера: Завинаги свързани",
+      "desc": "сериал "
+    }
+  },
+  {
+    "channel": "104",
+    "epg_name": "tvplus",
+    "title": "TV+",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv6/smil:tvplus_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=6vAvA0n1m9_AUhKZ25IhsQI2M6DYdyNwaQ9zxUdMbSE=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Новини",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "105",
+    "epg_name": "bnt2",
+    "title": "БНТ 2",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/bnt/smil:bnt2_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=J9Mwx4Dgp6UxWqjxP70HeCDV03wavl80Sr_WgGmRtMk=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511191800",
+      "title": "България днес",
+      "desc": "информационен блок "
+    }
+  },
+  {
+    "channel": "106",
+    "epg_name": "bntworld",
+    "title": "BNT world",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/bnt/smil:bntworld_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=BkfeucvbDZzaIPWjArzJTEZDmUnzyYQW_mg2FUbySoM=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511191800",
+      "title": "България днес",
+      "desc": "информационен блок "
+    }
+  },
+  {
+    "channel": "107",
+    "epg_name": "bit",
+    "title": "BiT",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv4/smil:bit_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=3Rl3LOe64Abf1Pe0y3GKgWIlwKTofROFztvOBvq1DRU=",
+    "lb": false,
+    "program": {
+      "startts": "1511188200",
+      "stopts": "1511195400",
+      "title": "еМисия България",
+      "desc": "LIVE"
+    }
+  },
+  {
+    "channel": "108",
+    "epg_name": "tvevropa",
+    "title": "ТВ Европа",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv2/smil:tvevropa_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=urYqYZsQz10MWKXDM0fMTt4lZzYjrXP6ev0LXFHi8T4=",
+    "lb": false,
+    "program": {
+      "startts": "1511191500",
+      "stopts": "1511191800",
+      "title": "Прогноза за времето",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "111",
+    "epg_name": "bnt_hd",
+    "title": "БНТ HD",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/sport1/smil:bnt_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Fh4BRIy8E9LCvccZYidRZuDNrf5-hsZPAaUtvfAUIh8=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Митове и легенди",
+      "desc": "документален филм, 11 епизод"
+    }
+  },
+  {
+    "channel": "112",
+    "epg_name": "kanal_3",
+    "title": "Kanal 3",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv7/smil:kanal_3_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=bilYgY45Jopp7kwuYLggA7WnY9brH2VFTp9evoNpvCY=",
+    "lb": false,
+    "program": {
+      "startts": "1511191500",
+      "stopts": "1511191800",
+      "title": "Телемаркет",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "113",
+    "epg_name": "skat",
+    "title": "Skat",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv7/smil:skat_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=5tDcy0AaSEYflOZl-VvK8dftEK_Nyvf1BV1GAf8kebc=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Старопланински водопади",
+      "desc": "документален филм"
+    }
+  },
+  {
+    "channel": "114",
+    "epg_name": "alfa",
+    "title": "Alfa",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv6/smil:alfa_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Uj-enSwetU4YNFB4k0RmpQ3tcdYH9SRvXjSAANUssT4=",
+    "lb": false,
+    "program": {
+      "startts": "1511190600",
+      "stopts": "1511193600",
+      "title": "Избрано от Неделник с Волен Сидеров",
+      "desc": "обзорно предаване"
+    }
+  },
+  {
+    "channel": "115",
+    "epg_name": "bulgaria_on_air",
+    "title": "Bulgaria ON Air",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv8/smil:bulgaria_on_air_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=VolWoHW7fQkGNAjyl22Yp8tFiNvJgqBDxPSm0aUrFe8=",
+    "lb": false,
+    "program": {
+      "startts": "1511189100",
+      "stopts": "1511191800",
+      "title": "Дивото зове",
+      "desc": "приключенски сериал, семеен\t "
+    }
+  },
+  {
+    "channel": "116",
+    "epg_name": "evrokom",
+    "title": "Evrokom",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv2/smil:evrokom_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=NfRJWdtg2_HpfmvuCG1hPTuJY9qiyJeT8CvEBKLk-cY=",
+    "lb": false,
+    "program": {
+      "startts": "1511182800",
+      "stopts": "1511193600",
+      "title": "Делници",
+      "desc": "следобеден блок с водещ Николай Колев "
+    }
+  },
+  {
+    "channel": "117",
+    "epg_name": "bulgaria24",
+    "title": "Bulgaria 24",
+    "genre": "ЕФИРНИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv2/smil:bulgaria24_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=CnExSI3azIoEhAbDLS0hFxVmN9fztm9fJiGArZBGwV8=",
+    "lb": false,
+    "program": {
+      "startts": "1511172000",
+      "stopts": "1511215200",
+      "title": "Bulgaria 24",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "201",
+    "epg_name": "diema",
+    "title": "Diema",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/nova/smil:diema_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=SdNWyTnsZhwYUiDrpkj5OGWsGGnRAS5i5-y1e_jSFU8=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511193600",
+      "title": "Трите нинджи: Битка в лунапарка",
+      "desc": "приключенски екшън с уч. на Хълк Хоган, Лоуни Андерсън, Джим Варни, Матю Ботъшис и др."
+    }
+  },
+  {
+    "channel": "204",
+    "epg_name": "eurosport",
+    "title": "Eurosport",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/sport3/smil:eurosport_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=TT7103ifyFPRFgQHUyfLzsLdq_Cgke0_ChJemuBPCwQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511182800",
+      "stopts": "1511197200",
+      "title": "Снукър",
+      "desc": "Северна Ирландия оупън, пряко"
+    }
+  },
+  {
+    "channel": "205",
+    "epg_name": "eurosport2",
+    "title": "Eurosport 2 HD",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/sport4/smil:eurosport2_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=b8szc6kFFv99TrwtkbIZPe2T-YNLtvqfnmEj64AeRUE=",
+    "lb": false,
+    "program": {
+      "startts": "1511188200",
+      "stopts": "1511193600",
+      "title": "Фигурно пързаляне, Гран При серии Франция",
+      "desc": "Гала"
+    }
+  },
+  {
+    "channel": "206",
+    "epg_name": "btv_action",
+    "title": "bTV Action",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/sport1/smil:btv_action_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=EFIk8sKzbsITvL48-D-6ri9IgJZAcHBKUInJzgR-qbw=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Последният кораб",
+      "desc": "сериал, с. 2, еп. 10"
+    }
+  },
+  {
+    "channel": "207",
+    "epg_name": "ringbg",
+    "title": "Ring HD",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/sport1/smil:ringbg_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=b83WNVx0AIWSBgrcV3j8rcBTnjAI8zFlv8VLhR1ZQ04=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511193600",
+      "title": "Италия, Серия А: Сампдория - Ювентус",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "208",
+    "epg_name": "novasporthd",
+    "title": "Nova Sport HD",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/sport2/smil:novasporthd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=jGw7CXUR_7Y63F_jCL7wybSp0T2p97lpwoCO0n70X_g=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511193600",
+      "title": "Баскетбол",
+      "desc": "Барселона – Валенсия, мач от испанската баскетболна лига, повторение"
+    }
+  },
+  {
+    "channel": "209",
+    "epg_name": "sportaltv",
+    "title": "Sportal HD",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv4/smil:sportaltv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=4q7qkVf-ZO40gPvVbWD7M5DtqHBhePak-RNoJsUUJ-0=",
+    "lb": false
+  },
+  {
+    "channel": "210",
+    "epg_name": "avto_moto_bg_hd",
+    "title": "Мотоспорт HD",
+    "genre": "Спортни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv2/smil:avto_moto_bg_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=nhgRFTrjnz--kRAaol9iAGGs8r-9MIIijpDiHjjrngs=",
+    "lb": false,
+    "program": {
+      "startts": "1511190600",
+      "stopts": "1511192100",
+      "title": "Моето хоби: 5-ти кръг от нац. шампионат по рали крос - тв поредица",
+      "desc": "Този кръг се проведе край град ловеч. В надпреварата участваха най - добрите пилоти на България. Те показаха класа и направиха финалите емоционални и зрелищни."
+    }
+  },
+  {
+    "channel": "302",
+    "epg_name": "discovery",
+    "title": "Discovery channel",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv6/smil:discovery_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=dOe4Yn66Z4HAiuXKkwjX_I1iTZ41a3P3FzW-wBpDK9g=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Съкровища в склада: Великобритания: Епизод 4",
+      "desc": "Всичко започва с гръм и трясък, когато бандата се отправя към Нотингам. Докато Хеви Ди и Бари се спречкват във ферма, Линда е изиграна."
+    }
+  },
+  {
+    "channel": "303",
+    "epg_name": "discovery_science",
+    "title": "Science",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv9/smil:discovery_science_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=62wmUddFjKjCkqHlQpzNT2VuthMEBLCeCOW7EEuwq2k=",
+    "lb": false,
+    "program": {
+      "startts": "1511190120",
+      "stopts": "1511193000",
+      "title": "Гръм и трясък: Къща",
+      "desc": "устойчива на земетресения"
+    }
+  },
+  {
+    "channel": "308",
+    "epg_name": "nat_geo_hd",
+    "title": "NGC HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv6/smil:nat_geo_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=o6CGBmCWBK5d16CAp20Y6nTOSO_yrJNZEs0cVMkD1S4=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Магистрала през ада",
+      "desc": "Кръстопът"
+    }
+  },
+  {
+    "channel": "309",
+    "epg_name": "nat_geo_wild",
+    "title": "National Geogrphic WILD HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv6/smil:nat_geo_wild_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=mryUL86zTWBfDejqwmCP04JrjW0ZiD6s7-0i0YIE_dM=",
+    "lb": false,
+    "program": {
+      "startts": "1511191440",
+      "stopts": "1511194260",
+      "title": "Най-смъртоносното трио: Малки убийци",
+      "desc": "Миниатюрни заплахи, способни да убият няколкократно по-голяма от тях плячка – от хермелини и азиатски диви кучета до синьопръстенния октопод."
+    }
+  },
+  {
+    "channel": "311",
+    "epg_name": "ot_blizo__hd",
+    "title": "От близо HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv2/smil:ot_blizo__hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Ayg-ACueTRY65vSHmJe2qyFvP0UNjuYz8fM-WwMzPoQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193900",
+      "title": "Най - големите природни бедствия на планетата: Горски пожари - 12 еп., документален филм",
+      "desc": "Поредицата разказва за едни от най - големите природни изпитания пред човека. Какви са мащабите на тези бедствия и последиците за хората научете тук."
+    }
+  },
+  {
+    "channel": "312",
+    "epg_name": "destination_bg_hd",
+    "title": "Destination BG HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv10/smil:destination_bg_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=fA4G_FbtRs9aheop9cmtKUFIgLfk9fDvy8e02d1J3mw=",
+    "lb": false,
+    "program": {
+      "startts": "1511190600",
+      "stopts": "1511193600",
+      "title": "Традиции и обичаи: Есенен панаир на занаятите",
+      "desc": "1 част "
+    }
+  },
+  {
+    "channel": "313",
+    "epg_name": "bul_hist_hd",
+    "title": "Българска история HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv2/smil:bul_hist_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Fd48oTn9K9o8iAkC1nFG3HD_4RVBWA_byuIpkoEzoAE=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511193000",
+      "title": "Последната експедиция с кораб „Академик“- 5 част",
+      "desc": "Филмът разказва за последната експедиция на  единственият  български  научно - изследователски кораб."
+    }
+  },
+  {
+    "channel": "314",
+    "epg_name": "history_channel_hd",
+    "title": "History Channel HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv7/smil:history_channel_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=g_gOpIEC6lLlGXH_TR4Wy1wttQSM7rrUUkY_TTgnrkU=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Американски антиквари",
+      "desc": "С пълна скорост напред "
+    }
+  },
+  {
+    "channel": "316",
+    "epg_name": "travel_channel",
+    "title": "Travel Channel",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv9/smil:travel_channel_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=qc3i8dTh-A2DCn7IMv9i_amqZlz5qb8BEbjA9C9pKLQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Странни храни: вкусни дестинации",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "317",
+    "epg_name": "travel_tv_hd",
+    "title": "Travel TV HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv9/smil:travel_tv_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=tlwysb8JAsXzet03a1Kil_cd7DfKJmp9M9NfMDCe9xE=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Пътуване с Туарегите",
+      "desc": "част 1"
+    }
+  },
+  {
+    "channel": "318",
+    "epg_name": "travel_tv",
+    "title": "Travel TV",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv9/smil:travel_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=IlTn1UzbmPwWhL54jq1Shv6yxpD-fAYp2e0G-e5Jbio=",
+    "lb": false
+  },
+  {
+    "channel": "320",
+    "epg_name": "fine_living",
+    "title": "Fine Living",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv1/smil:fine_living_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=hqThqMKhjMTRh4iKsceySXLrpuwXIcIGBiD8hl4id50=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Разбивачи на дворове",
+      "desc": "Двор в рустикален и кънтри стил"
+    }
+  },
+  {
+    "channel": "321",
+    "epg_name": "in_kitchen_hd",
+    "title": "Хайде в кухнята HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv10/smil:in_kitchen_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=kvikvHhD6pl47oAe-Z6lyXGxJOPZrgO6LnG5iS7ySis=",
+    "lb": false,
+    "program": {
+      "startts": "1511190900",
+      "stopts": "1511193000",
+      "title": "Кулинар - тв поредица, сезон 2, епизод 28",
+      "desc": "В епизода ще видите приготвянето на пиле с боровинки и карамелизирани ябълки и домашна точена торта."
+    }
+  },
+  {
+    "channel": "322",
+    "epg_name": "24_kitchen",
+    "title": "24 Kitchen",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv4/smil:24_kitchen_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=yyBCib1J3S6dveVvj3uxAg8laR5ftJso6X8LT8_VJlQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511191500",
+      "stopts": "1511193600",
+      "title": "Тайните рецепти на баба",
+      "desc": "кулинарно предаване"
+    }
+  },
+  {
+    "channel": "323",
+    "epg_name": "food_network_hd",
+    "title": "Food network HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv1/smil:food_network_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=LZmyHCcEm31Yc-LUUQYOvtiEJqu73GYuMANhSOznvQg=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Кухнята",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "326",
+    "epg_name": "wness_tv",
+    "title": "WNESS TV HD",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv4/smil:wness_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=UPyvB4upCC4h2jo7ewYzN2ItfGCaf_nzGKhTBn-Syqw=",
+    "lb": false
+  },
+  {
+    "channel": "327",
+    "epg_name": "viasat_history",
+    "title": "Viasat History",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv/smil:viasat_history_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=_z1eSuI8FcgLBMFtSnq7BM79iuZlF22DslnsqIkbrbo=",
+    "lb": false,
+    "program": {
+      "startts": "1511191500",
+      "stopts": "1511194500",
+      "title": "Загадки в музея",
+      "desc": "сезон 4, еп. 11"
+    }
+  },
+  {
+    "channel": "328",
+    "epg_name": "viasat_explorer",
+    "title": "Viasat Explorer",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv10/smil:viasat_explorer_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=PYdfvDYihBKab5mkY2g1s3WRBXR-vBNqZZ-BDXKURG0=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511193900",
+      "title": "Риболовна надпревара",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "329",
+    "epg_name": "viasat_nature",
+    "title": "Viasat Nature",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv/smil:viasat_nature_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Jx2yMv9npeynPnLOp5c70WZaHwdsCQavojyfa1Q9HYY=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511192700",
+      "title": "Пол О'Грейди за любовта към кучета",
+      "desc": "сезон 4, еп. 1"
+    }
+  },
+  {
+    "channel": "333",
+    "epg_name": "da_vinci_learning",
+    "title": "Da Vinci Learning",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv35/smil:da_vinci_learning_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=KOUy7XTdVoEoYBn_f8j8mCY9s9m6yzA65lNAnqxyBGQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511190600",
+      "stopts": "1511192100",
+      "title": "\"Уголемена наука\"",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "338",
+    "epg_name": "agro_tv_hd",
+    "title": "Agro TV",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv5/smil:agro_tv_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=q4aXFhZoJQwsVR-wdTzFfVi22XCTrMna1XbFQPdj-NA=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511191800",
+      "title": "Агротема",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "339",
+    "epg_name": "tvt",
+    "title": "TVT",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv11/smil:tvt_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=GJpTyTxpNHdN9bxsiB7XwdWBNMWcciXxxD-ftWXfQLQ=",
+    "lb": false
+  },
+  {
+    "channel": "340",
+    "epg_name": "in_life_hd",
+    "title": "In LIFE TV",
+    "genre": "Научни",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv6/smil:in_life_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=FcuVZIFDOA62091h1aiRLjx4UgAuzLKpbPV051CBnFw=",
+    "lb": false
+  },
+  {
+    "channel": "401",
+    "epg_name": "kinonova",
+    "title": "KinoNova",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/nova/smil:kinonova_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=mXEgnnDwNZbRSok9GjT4uwcixEfDQ7UlJbGM9QttHAM=",
+    "lb": false,
+    "program": {
+      "startts": "1511183400",
+      "stopts": "1511193600",
+      "title": "Междузвездни войни: Епизод II – Клонираните атакуват",
+      "desc": "повторение, екшън-фантастика с уч. на Кристофър Лий, Самюел Л. Джаксън, Йън Макдермид, Натали Портман, Юън Макгрегър, Хейдън Кристенсен и др."
+    }
+  },
+  {
+    "channel": "402",
+    "epg_name": "filmplus_hd",
+    "title": "Film + HD",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv/smil:filmplus_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=iXba5L-oE72ytv2TG-eEz8g1ZFamCE5s2X4iG6_CGzQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511197200",
+      "title": "Полет",
+      "desc": "драма, трилър, Швеция, 2015, Режисьор: Беата Гарделер, В ролите: Фатиме Аземи, Джон Ристо, Ева Меландер "
+    }
+  },
+  {
+    "channel": "407",
+    "epg_name": "btv_cinema",
+    "title": "bTV Cinema",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/btv/smil:btv_cinema_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=yN8kWqIR-vpfL0n0MjmOjSKyU9W-lQO5Z1QIBn7Mneg=",
+    "lb": false,
+    "program": {
+      "startts": "1511182800",
+      "stopts": "1511194500",
+      "title": "Човек от стомана",
+      "desc": "фентъзи, приключенски, екшън, САЩ, Канада, Великобритания, 2013, режисьор: Зак Снайдър, в ролите: Хенри Кавил, Ейми Адамс, Майкъл Шанън, Даян Лейн, Ръсел Кроу, Андже Трау, Хенри Леникс, Айлит Зурер, Кевин Костнър, Лорънс Фишбърн и др."
+    }
+  },
+  {
+    "channel": "408",
+    "epg_name": "btv_comedy",
+    "title": "bTV Comedy",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/btv/smil:btv_comedy_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=k6D8zSr-FT4_eRapLsebW8y7lsMpD63EKl-eM4xsvqk=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Домашен арест",
+      "desc": "сериал, с.1 "
+    }
+  },
+  {
+    "channel": "409",
+    "epg_name": "btv_lady",
+    "title": "bTV Lady",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/btv/smil:btv_lady_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=o2Ek-HHYYuve27f91IxNntVeRZVAMsCI6geE3k5tXJ0=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511191800",
+      "title": "Фермата",
+      "desc": "риалити, с.3 "
+    }
+  },
+  {
+    "channel": "410",
+    "epg_name": "diema_family",
+    "title": "Diema Family",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/nova/smil:diema_family_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=jjh8WES-vhStcYmNe2NBRdIbK3PNGC-5xxc4AAyss80=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Моят живот",
+      "desc": "повторение: сериен филм "
+    }
+  },
+  {
+    "channel": "411",
+    "epg_name": "fox",
+    "title": "FOX",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv4/smil:fox_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=la9Bes1__Qd3v8yVM5YF8d5Dsdyk7qKegcjyu-36hn4=",
+    "lb": false,
+    "program": {
+      "startts": "1511190600",
+      "stopts": "1511192100",
+      "title": "По-щастливите ни приятели",
+      "desc": "първи сезон "
+    }
+  },
+  {
+    "channel": "412",
+    "epg_name": "fox_life",
+    "title": "Fox Life",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv4/smil:fox_life_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=WRVzN4SCvzmq9UYqloywRdXxh91wJaNJ6_-Fb75gA2g=",
+    "lb": false,
+    "program": {
+      "startts": "1511190300",
+      "stopts": "1511193600",
+      "title": "Отчаяни съпруги",
+      "desc": "осми сезон"
+    }
+  },
+  {
+    "channel": "413",
+    "epg_name": "fox_crime",
+    "title": "Fox Crime",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv4/smil:fox_crime_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Qd3P6IsVPsEQPZlsnWf2SgM7ltSlm_ckUxOWbc7pwEY=",
+    "lb": false,
+    "program": {
+      "startts": "1511190600",
+      "stopts": "1511194500",
+      "title": "Веществени доказателства: Рим",
+      "desc": "първи сезон "
+    }
+  },
+  {
+    "channel": "414",
+    "epg_name": "axn",
+    "title": "AXN",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv2/smil:axn_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=pw3wiiCMP4r0LZaPPqnw32yd0x2pn5iG8urK93us7tU=",
+    "lb": false,
+    "program": {
+      "startts": "1511190300",
+      "stopts": "1511193900",
+      "title": "4исла",
+      "desc": "сезон 5, епизод 20, криминален, драма, САЩ, 2009 "
+    }
+  },
+  {
+    "channel": "417",
+    "epg_name": "tv1000",
+    "title": "TV1000",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv8/smil:tv1000_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=pVqOm8q3qScb-KwxpCKUaXmSXedBYM32tMVc81lfZT8=",
+    "lb": false,
+    "program": {
+      "startts": "1511187900",
+      "stopts": "1511193300",
+      "title": "Ценен товар",
+      "desc": "Канада, екшън/комедия/криминален, с Брус Уилис, 2016"
+    }
+  },
+  {
+    "channel": "419",
+    "epg_name": "id_xtra",
+    "title": "ID Xtra",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv2/smil:id_xtra_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=gqPAgMZHAn7XClarBiuVtDBsxFrE5iV3VWX__Xo_sAs=",
+    "lb": false,
+    "program": {
+      "startts": "1511191500",
+      "stopts": "1511193000",
+      "title": "Чудовищни майки: Убийствен навик",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "423",
+    "epg_name": "filmbox_hd",
+    "title": "FILMBOX HD",
+    "genre": "Филмови",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv7/smil:filmbox_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=xfOb99NTq_3R2QAXnWUEEANbEZ8RjJjqss1I5LTjuFA=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511196300",
+      "title": "Млади по душа",
+      "desc": "Документален, Великобритания, 2007"
+    }
+  },
+  {
+    "channel": "501",
+    "epg_name": "planetahd",
+    "title": "Planeta HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv7/smil:planetahd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=RJeiN2-WIN5YbPDpiRsitmUer8FwWQVpfAHlBHuahTI=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Show Time",
+      "desc": "музикална програма"
+    }
+  },
+  {
+    "channel": "502",
+    "epg_name": "planetatv",
+    "title": "Planeta",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv8/smil:planetatv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=XDuhMFqbW-Kf2OPc8xv0GkN1gzwM7QUg4dDn-IHRb2A=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Това е България",
+      "desc": "документална поредица"
+    }
+  },
+  {
+    "channel": "503",
+    "epg_name": "fan_tv_hd",
+    "title": "Fen TV HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv2/smil:fan_tv_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Si030AFv_PeefTy5yks5PqpAjoa61tQwMDz8WV36o34=",
+    "lb": false,
+    "program": {
+      "startts": "1511185200",
+      "stopts": "1511192400",
+      "title": "Феномени",
+      "desc": "на живо"
+    }
+  },
+  {
+    "channel": "504",
+    "epg_name": "balkanica_hd",
+    "title": "Balkanica HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv2/smil:balkanica_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=tkh2gqbKbr8rIImb6dbsSBaRVerh7UD6-_uWHRdo0VA=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Standard MNG",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "505",
+    "epg_name": "planeta_folk",
+    "title": "Planeta Folk",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv8/smil:planeta_folk_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=w0tpCXxJufWHaTxt_X349_0WDmsjrYBX0Q4QBX40xbc=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Традиция и новаторство",
+      "desc": "модерен фолк"
+    }
+  },
+  {
+    "channel": "506",
+    "epg_name": "folklor_tv_hd",
+    "title": "Folklor TV",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv35/smil:folklor_tv_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=7foqSEoKiIspjZPPkjHSl6nDuWOZ4o6P0JLq64PTUUc=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511195400",
+      "title": "Шарена черга",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "507",
+    "epg_name": "fen_folk_tv",
+    "title": "Fen Folk TV",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv2/smil:fen_folk_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=o46NXRAr9sqCebTpTzz_qTPVGdXt-IhgHhuHhkIclfQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511190600",
+      "stopts": "1511200800",
+      "title": "Пъстра плетеница",
+      "desc": "музикално-развлекателен блок"
+    }
+  },
+  {
+    "channel": "508",
+    "epg_name": "tiankov_folk_hd",
+    "title": "Tiankov Folk HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv4/smil:tiankov_folk_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=HH9k-YvEDND5nL9xLpYwVTB9tMF5Rv-paVA7ZyzuK6c=",
+    "lb": false,
+    "program": {
+      "startts": "1511172000",
+      "stopts": "1511215200",
+      "title": "Tiankov TV",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "509",
+    "epg_name": "tiankov_misic_hd",
+    "title": "Tiankov Orient HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv4/smil:tiankov_misic_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=_fnXe0nsRarELH-8-Ky8H0BEKb91ZaWXwIhFlqFMlAk=",
+    "lb": false
+  },
+  {
+    "channel": "511",
+    "epg_name": "dstv",
+    "title": "DSTV",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv2/smil:dstv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=XHXzEAtrwIi9N_VAOXzNBue2B2gkdxeqCN43HoPXooc=",
+    "lb": false
+  },
+  {
+    "channel": "512",
+    "epg_name": "hit_tv",
+    "title": "Hit Mix Music",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv5/smil:hit_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=eGW-TZUEWk2o6iUYabzEuld7XR1yRhBPr1Stq5t6PbU=",
+    "lb": false
+  },
+  {
+    "channel": "513",
+    "epg_name": "roma_tv",
+    "title": "Roma TV",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv4/smil:roma_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=fhtqjlWmbRtfhGT3EDNzyv3OG5X8za2FyKiTpr_j8uE=",
+    "lb": false
+  },
+  {
+    "channel": "514",
+    "epg_name": "dm_sat",
+    "title": "DM Sat",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv3/smil:dm_sat_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=I_OCc7QxxJQNFjd3d3ug8Hyr6q-QgHxmFp1tmHloaTw=",
+    "lb": false,
+    "program": {
+      "startts": "1511172000",
+      "stopts": "1511215200",
+      "title": "DM Sat",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "515",
+    "epg_name": "kcn_music_2",
+    "title": "KCN Music 2",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv11/smil:kcn_music_2_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=zrlM4GQEcAoaLjM9z70ca-c-rz0opKM9sUVyvfXTu8M=",
+    "lb": false
+  },
+  {
+    "channel": "516",
+    "epg_name": "kcn_music_3",
+    "title": "KCN Svet+ 3",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv11/smil:kcn_music_3_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=WX5yiMBCKQEtWEMS1AygRoOyOloTqJX4n2Bc2JaAklU=",
+    "lb": false
+  },
+  {
+    "channel": "518",
+    "epg_name": "duga_tv",
+    "title": "Duga TV",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv35/smil:duga_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=sNyMnq7zjRb2IoPo0CMhAjyuK8gQuZaiWCKNZ0FLYjc=",
+    "lb": false
+  },
+  {
+    "channel": "519",
+    "epg_name": "the_voice",
+    "title": "The Voice HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv8/smil:the_voice_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=AP5kXJSLMZqTNXf3xwgpYplZ2pT1uN6bTTF_1vVdbbs=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511193600",
+      "title": "We Love Music",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "521",
+    "epg_name": "magic_tv",
+    "title": "Magic TV",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv5/smil:magic_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=konPySFSGt3fWAOSuwIK8EA37vJWFG0xNE-uKReR1OM=",
+    "lb": false,
+    "program": {
+      "startts": "1511164800",
+      "stopts": "1511193600",
+      "title": "НАЙ-ДОБРАТА МУЗИКА",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "522",
+    "epg_name": "bg_top_music",
+    "title": "BG Top Music",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv10/smil:bg_top_music_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=yTsT84SFx0fsZytIcz-2Kj_BgrZn9Y-LdDcOnsCXKXU=",
+    "lb": false
+  },
+  {
+    "channel": "523",
+    "epg_name": "box_tv_hd",
+    "title": "BOX TV HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv7/smil:box_tv_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=jUhe456IrmdL0eKuXm7rKZY3MHuhQcmZnJf_GaIblSg=",
+    "lb": false,
+    "program": {
+      "startts": "1511163000",
+      "stopts": "1511193600",
+      "title": "Playlist",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "524",
+    "epg_name": "bg_music_channel_hd",
+    "title": "BG Music Channel HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv2/smil:bg_music_channel_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=oysctPKj9qIsDIswDnfKVdIr3FqhWSbNc3zRS6g7ACE=",
+    "lb": false
+  },
+  {
+    "channel": "529",
+    "epg_name": "vh1_classic",
+    "title": "VH1 Classic",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv8/smil:vh1_classic_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=BGvBMaHh0_s4F8eekvXkuDuM9ktejFIDBbXxKC67W9A=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "90s Vs 00s",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "530",
+    "epg_name": "vh1",
+    "title": "VH1",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv8/smil:vh1_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=phTtY0nAijb8Ou96cgiR9KV6l1jH-McyklDgJWZRMLE=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Ние обичаме 2010 +",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "532",
+    "epg_name": "mtv_rock",
+    "title": "MTV Rock",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv8/smil:mtv_rock_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=HSW9aicL5W_DPrjyGnfR1Lvf1dlSRVpE1xTifRlCypY=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Rocks Rated!",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "533",
+    "epg_name": "mtv_hits",
+    "title": "MTV Hits",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv3/smil:mtv_hits_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=PvO6wItocYTv0vKoDVcONgYzsn3YFoS0D91mxrI1ymg=",
+    "lb": false,
+    "program": {
+      "startts": "1511186400",
+      "stopts": "1511193600",
+      "title": "Pop Superstars",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "537",
+    "epg_name": "360tunebox",
+    "title": "360TuneBox HD",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv2/smil:360tunebox_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=sLfDpsEiC8erwyEdmJWfdTS8a7ZRkcY8dS7T3gXNScs=",
+    "lb": false
+  },
+  {
+    "channel": "540",
+    "epg_name": "musica",
+    "title": "Музыка",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv12/smil:musica_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=AU6AqHX1eIHPHR3xfbusm0A-rov2CUy0HkiF3ib3qso=",
+    "lb": false
+  },
+  {
+    "channel": "544",
+    "epg_name": "kral_tv",
+    "title": "Kral TV",
+    "genre": "Музикални",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv/smil:kral_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=ARZA__0d7nFjLGABxa2Kf0x8gT19WeWhYpQuCLcFtYk=",
+    "lb": false
+  },
+  {
+    "channel": "601",
+    "epg_name": "disney_channel",
+    "title": "Disney channel",
+    "genre": "Детски",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv7/smil:disney_channel_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=W2j-VsExKZ1P7cqMbeE4ZYApXuBPd7FgJDIJSPHEZZ8=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511191800",
+      "title": "Приключенията на Рапунцел и разбойника",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "602",
+    "epg_name": "cn",
+    "title": "CN",
+    "genre": "Детски",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv228/smil:cn_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=hHWCp5xvbXZROprmtchSu7DCOZs9be2eL5Upt4RbzZ4=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511192100",
+      "title": "Бен 10",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "603",
+    "epg_name": "nick_jr",
+    "title": "Nick Jr.",
+    "genre": "Детски",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv228/smil:nick_jr_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=fFZ14HHMCH2JRY_TU231c8d_sl2p7bGeJ6sa8h00r28=",
+    "lb": false
+  },
+  {
+    "channel": "604",
+    "epg_name": "boomerang",
+    "title": "Boomerang",
+    "genre": "Детски",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv228/smil:boomerang_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=RJW-1WTNSBDlakwNWmSthhuwZydEEWf0P2Kf-fPEBWQ=",
+    "lb": false,
+    "program": {
+      "startts": "1511191500",
+      "stopts": "1511192160",
+      "title": "Wacky Races",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "606",
+    "epg_name": "nickelodeon",
+    "title": "Nickelodeon",
+    "genre": "Детски",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv7/smil:nickelodeon_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=zxi9xNs0LqBixEVO89dhuDfUDIoZ0pfHggvbWoGXNyI=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511192700",
+      "title": "Опасният Хенри",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "609",
+    "epg_name": "ekids",
+    "title": "Ekids",
+    "genre": "Детски",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv228/smil:ekids_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=bCCmmREncAtOacZH-Th6J6x-_94ARRucg8kxd_2pPkE=",
+    "lb": false,
+    "program": {
+      "startts": "1511191200",
+      "stopts": "1511192400",
+      "title": "Трансформъри: Роботи-спасители",
+      "desc": "анимационен сериал"
+    }
+  },
+  {
+    "channel": "701",
+    "epg_name": "tv1_hd",
+    "title": "TV 1 HD",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv4/smil:tv1_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=F0mvME-tCdyWgU6saZ2UKh44wj78fq8kLgfF2LaS6yk=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "Дълг",
+      "desc": "чест и храброст"
+    }
+  },
+  {
+    "channel": "702",
+    "epg_name": "tv_stara_zagora",
+    "title": "TV Zagora",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv2/smil:tv_stara_zagora_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=263VE9FSvarh0BavsYVElyKLgV6FVk6OYbULK4XzLYI=",
+    "lb": false,
+    "program": {
+      "startts": "1511190900",
+      "stopts": "1511192100",
+      "title": "",
+      "desc": "-"
+    }
+  },
+  {
+    "channel": "703",
+    "epg_name": "stara_zagora_tv",
+    "title": "TV Stara Zagora",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv228/smil:stara_zagora_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=tALIgky7vCz1-IqBzUw4iiiF4qtW8Bvv7Jph-8pI0nM=",
+    "lb": false,
+    "program": {
+      "startts": "1511190300",
+      "stopts": "1511191800",
+      "title": "",
+      "desc": "-"
+    }
+  },
+  {
+    "channel": "704",
+    "epg_name": "stoychev",
+    "title": "Stoychev HD",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv6/smil:stoychev_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=GShZNMiP1AvNVJXMDMgJZlNViEV-fciXgPOdzne_Gx8=",
+    "lb": false,
+    "program": {
+      "startts": "1511187900",
+      "stopts": "1511192100",
+      "title": "",
+      "desc": "-"
+    }
+  },
+  {
+    "channel": "705",
+    "epg_name": "po_tv_trakia",
+    "title": "PO TV Trakia",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv1/smil:po_tv_trakia_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=lPR8yaBEjm9TKtglxVcvmPvRWi0zRJ4nZ9FMEH3Q6Mg=",
+    "lb": false
+  },
+  {
+    "channel": "706",
+    "epg_name": "cherno_more",
+    "title": "Черно Море",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv2/smil:cherno_more_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=jWv8lsapC8gaHgU5GmWqH_gLRCpdrNiYWZGgCvHelRg=",
+    "lb": false
+  },
+  {
+    "channel": "707",
+    "epg_name": "bloomberg_tv",
+    "title": "Bloomberg TV Bulgaria",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv4/smil:bloomberg_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Q3tFexljhcKMGiSZ2jSjoYgPooX1gDnxmirZ05bCegU=",
+    "lb": false,
+    "program": {
+      "startts": "1511190300",
+      "stopts": "1511193600",
+      "title": "Очи в очи - док",
+      "desc": "поредица на Bloomberg"
+    }
+  },
+  {
+    "channel": "708",
+    "epg_name": "kanal4",
+    "title": "Kanal 4",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv1/smil:kanal4_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=YE_HybISmDT4VwGpKgA3brohrSsdejGT768HskNycYA=",
+    "lb": false
+  },
+  {
+    "channel": "709",
+    "epg_name": "bhtv",
+    "title": "BHTV",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv9/smil:bhtv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=BHM0Rio8QTVednPLqZtwiDT14_0hKfYcrneyAobdOQs=",
+    "lb": false
+  },
+  {
+    "channel": "712",
+    "epg_name": "perviy_kanal",
+    "title": "Perviy Kanal",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv5/smil:perviy_kanal.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=SawfP9M3v8ZPmw_U5TuEreJ_nQCHDN6WrGHcMJcQ2Gg=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511192400",
+      "title": "Вечерни новини (със субтитри)",
+      "desc": "информационно предаване"
+    }
+  },
+  {
+    "channel": "717",
+    "epg_name": "24_techno",
+    "title": "24 техно",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv35/smil:24_techno_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=baa6FVrJOa50Pd5b6TSWYHl73Lk3h4wnpUnno0KVTo4=",
+    "lb": false
+  },
+  {
+    "channel": "725",
+    "epg_name": "atv",
+    "title": "ATV",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv3/smil:atv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=mOkAqnlgBGMkSaF_XBXwZAGIjBSMDsOUxAqTza_EGww=",
+    "lb": false
+  },
+  {
+    "channel": "726",
+    "epg_name": "haber_turk",
+    "title": "Haber Turk",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv5/smil:haber_turk_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=iQ7FWK8zzHSNedbnFo-vHSTJBSqy6jImrdZFUjkhVus=",
+    "lb": false
+  },
+  {
+    "channel": "728",
+    "epg_name": "tgrt",
+    "title": "TGRT",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv5/smil:tgrt_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=8833nWMl-kcCQJujNjZnWWW8FqfZDyvPv3xEbxm_93c=",
+    "lb": false
+  },
+  {
+    "channel": "729",
+    "epg_name": "stv",
+    "title": "STV",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv5/smil:stv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=D1zVdReBeD79EIiL7QAQHFPflxB1KVOSSTgq0Kdau4Y=",
+    "lb": false
+  },
+  {
+    "channel": "731",
+    "epg_name": "cnn",
+    "title": "CNN",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv11/smil:cnn_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Yp2da8wuAYDTw3wrayUpvmh2OHMGbfmp464kosNzHcs=",
+    "lb": false,
+    "program": {
+      "startts": "1511190000",
+      "stopts": "1511193600",
+      "title": "International Desk (with World Sport)",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "734",
+    "epg_name": "dw",
+    "title": "Deutsche welle",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv11/smil:dw_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=IQJAmQykvyBzPt2inyjQfBdZe87D-HV_K9aEuFoJPdw=",
+    "lb": false
+  },
+  {
+    "channel": "735",
+    "epg_name": "al_jazeera",
+    "title": "Al Jazeera",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv3/smil:al_jazeera_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=ZJ2gMIPJsMFj9d55lMlRrQSSZG6FvL0OwKDSdarJUoU=",
+    "lb": false
+  },
+  {
+    "channel": "736",
+    "epg_name": "359tv_hd",
+    "title": "CODE FASHION TV",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv9/smil:359tv_hd_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=03Nf9ZL5jW2Ecd85Oswt6rTTbFibnzeDuFHHerp5pys=",
+    "lb": false
+  },
+  {
+    "channel": "737",
+    "epg_name": "fashion_tv",
+    "title": "Fashion TV",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/tv8/smil:fashion_tv_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=vnEcqtdoVjTsVYo6V2UNanPVH47NxDhK5nRaUfKkhU4=",
+    "lb": false,
+    "program": {
+      "startts": "1511191500",
+      "stopts": "1511191800",
+      "title": "F-PEOPLE",
+      "desc": ""
+    }
+  },
+  {
+    "channel": "751",
+    "epg_name": "n24",
+    "title": "N24",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv5/smil:n24_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=8n8ibci1LSjLcWrIDeSo0J-yFCIrWoMoCKyIxqq2x18=",
+    "lb": false
+  },
+  {
+    "channel": "755",
+    "epg_name": "orf_2",
+    "title": "ORF 2",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv12/smil:orf_2_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Z1rXJSLsrKNVr0HY2j5Svyfyr01zeBV3D6tWe1T1frw=",
+    "lb": false
+  },
+  {
+    "channel": "756",
+    "epg_name": "france_24",
+    "title": "France 24",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv12/smil:france_24_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=CEt5UnJvkNeCd8gWXi8NsPVid7izjU0a2-XBveLpcQQ=",
+    "lb": false
+  },
+  {
+    "channel": "757",
+    "epg_name": "france_2",
+    "title": "France 2",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/tv1/smil:france_2_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=pmP9VpCHLluS9IcsIEzB96MDMFSG12BrNQG2KVH_uOM=",
+    "lb": false
+  },
+  {
+    "channel": "758",
+    "epg_name": "tv5",
+    "title": "TV5",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv12/smil:tv5_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=1_1btzR2IlrVrbOcLNCsSJ3s7eBC1FrrIMQX1HvHf_o=",
+    "lb": false
+  },
+  {
+    "channel": "760",
+    "epg_name": "rai_uno",
+    "title": "Rai Uno",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/tv35/smil:rai_uno_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=yaPoPde4hpXVBgu4Jn6875eSsatDRe4L9NFMkEWLh1s=",
+    "lb": false
+  },
+  {
+    "channel": "767",
+    "epg_name": "tve",
+    "title": "TVE",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv/smil:tve_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=yiX0hruYaLhtPH2l2Um1Jk5GoYJeZWqqcDxTb5gUMC0=",
+    "lb": false
+  },
+  {
+    "channel": "769",
+    "epg_name": "rtp_int",
+    "title": "RTP Int.",
+    "genre": "ДРУГИ",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv6/smil:rtp_int_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=ZnHyy7bWcyLvVfcZVzOROeEqv8D7RD-oRHt4oCAKI6o=",
+    "lb": false
+  },
+  {
+    "channel": "902",
+    "epg_name": "darik",
+    "title": "Дарик радио",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/darik.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Qu4zmefOfw_ypD7JgE--DkK1wY5FDbtY6ReXpows8P8=",
+    "lb": false
+  },
+  {
+    "channel": "903",
+    "epg_name": "radiofocus",
+    "title": "Radio Focus",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/radiofocus.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=1SnHLbW0SsU6_CNeIHZTjOFlSnxuWzp_QBpwl1dpozE=",
+    "lb": false
+  },
+  {
+    "channel": "904",
+    "epg_name": "nova",
+    "title": "Radio Nova",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/nova.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=q2q2Nfx9lE5Gie27Eos7XlaU5R0SFxz5nB_e2GU_ehA=",
+    "lb": false
+  },
+  {
+    "channel": "905",
+    "epg_name": "btv_radio",
+    "title": "BTV radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/btv_radio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=dqrrZjv6L-idRayOVbV6uNfZBQZVmQsKcB8LhPSUqU8=",
+    "lb": false
+  },
+  {
+    "channel": "906",
+    "epg_name": "rbulgaria_on_air",
+    "title": "Bulgaria On Air",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/rbulgaria_on_air.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=wwYSVlzjxvNr8fmi0Rebw3aoJGihP7GVGluN8ZNMb00=",
+    "lb": false
+  },
+  {
+    "channel": "907",
+    "epg_name": "horizont",
+    "title": "horizont",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/horizont.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=-vW-Tl1_Oyv6dXJUvH6NsGrkcmeEfz_Cq-MeiHM2m1g=",
+    "lb": false
+  },
+  {
+    "channel": "908",
+    "epg_name": "hristobotev",
+    "title": "Hristo Botev BNR",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/hristobotev.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=NLCFLW3JnYW8CJDtdyQx_WyjdVBjeBb7mbXTWWIcuAY=",
+    "lb": false
+  },
+  {
+    "channel": "912",
+    "epg_name": "radio_varna",
+    "title": "Radio Varna",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/radio_varna.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=8VxOA9UaaGDgEsWya1ljjXEzllutlGXhWUm5c-1piM0=",
+    "lb": false
+  },
+  {
+    "channel": "916",
+    "epg_name": "tvoeto_radio",
+    "title": "Tvoeto Radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/tvoeto_radio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=c-5Ge1-ZWq8km2h1aZiUww86zhnFto2oCkV1ZYrIRJ8=",
+    "lb": false
+  },
+  {
+    "channel": "917",
+    "epg_name": "bgradio",
+    "title": "BG radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/bgradio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=i6g1oXIoHilcJo3hTQnBSzx2q61dv9KddjYq3mzFXes=",
+    "lb": false
+  },
+  {
+    "channel": "920",
+    "epg_name": "veselina",
+    "title": "Veselina",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/veselina.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=6O2KOLxvC2XACJzdLUaoHJ7H1ivr0rHqUyd04dIIW-0=",
+    "lb": false
+  },
+  {
+    "channel": "921",
+    "epg_name": "veronika",
+    "title": "veronika",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/veronika.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=JLayBwvHG1AAYc_clZRAFbaaj6jVBepV7d-PC1YInZM=",
+    "lb": false
+  },
+  {
+    "channel": "922",
+    "epg_name": "payner",
+    "title": "Radio Payner",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/payner.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=CQ3vqLwBZDpthNeABdL2jI9jUvY0oeqnA2vaGmHGjO0=",
+    "lb": false
+  },
+  {
+    "channel": "923",
+    "epg_name": "ultra",
+    "title": "Radio Ultra",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/ultra.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=3YstXkahUycmE41U8aI2t2KpbFSm0LgBNFDI1FIuj7E=",
+    "lb": false
+  },
+  {
+    "channel": "924",
+    "epg_name": "folk_radio_nazdrave",
+    "title": "Folk radio Nazdrave",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/folk_radio_nazdrave.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=HbMYcUbCNLOpRpxuyilEzHhmQxaQZZfHVhD2f2wINCU=",
+    "lb": false
+  },
+  {
+    "channel": "925",
+    "epg_name": "folk_radio",
+    "title": "Folk Radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/folk_radio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=ZDux-rb6bnGVUPSkOFEgIurLh3lBUjNLD8df5FOotsw=",
+    "lb": false
+  },
+  {
+    "channel": "926",
+    "epg_name": "chanove",
+    "title": "Radio Chanove",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/chanove.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=L8RAj4xUe0N7J13DgiQcsPlnI-jHOA0D3BOlivz6kwk=",
+    "lb": false
+  },
+  {
+    "channel": "928",
+    "epg_name": "vitosha",
+    "title": "vitosha",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/vitosha.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=101Xt2e1syKd0bWwFfblK4-jR399YhIziudtWNG0Srs=",
+    "lb": false
+  },
+  {
+    "channel": "929",
+    "epg_name": "njoy",
+    "title": "njoy",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/njoy.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=9C_DgJEdccEyi0J3iRe5kYJqg_XFw1I52xmnieag7U4=",
+    "lb": false
+  },
+  {
+    "channel": "930",
+    "epg_name": "rthevoice",
+    "title": "The Voice",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/rthevoice.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=hU3NfGPQi_pLUeJd6DDAM56uQrID69BTDvkQ8RqdHek=",
+    "lb": false
+  },
+  {
+    "channel": "931",
+    "epg_name": "fresh",
+    "title": "Radio Fresh",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/fresh.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=e2CHX2QnBunil7BqzpkGFziZcOj1WahcBOCVZlsRX48=",
+    "lb": false
+  },
+  {
+    "channel": "932",
+    "epg_name": "city",
+    "title": "Radio City",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/city.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=uKE9nYEogYdL3MmCPdnJZU_FemvqSXx9BwCzj_SFvAQ=",
+    "lb": false
+  },
+  {
+    "channel": "933",
+    "epg_name": "nrj",
+    "title": "nrj",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/nrj.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=22VvjXQphtO4wlQVefkCnrqVmHyGyZxXI7DJJcnLdLw=",
+    "lb": false
+  },
+  {
+    "channel": "934",
+    "epg_name": "sweet_radio",
+    "title": "Sweet Radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/sweet_radio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=HOM9ibe0x33uj_LOdmybsd04nntBLo_LDSEXLtkWabg=",
+    "lb": false
+  },
+  {
+    "channel": "935",
+    "epg_name": "top_100_station",
+    "title": "Top 100 Station",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/top_100_station.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=nDDB3paiTE_UqOD86k4EWMvZBGBUOs0I-moSM8AQR_g=",
+    "lb": false
+  },
+  {
+    "channel": "936",
+    "epg_name": "radio_family",
+    "title": "Radio Family",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/radio_family.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=IGzddaMDitLrZZ9siRJ30JHhntXzMWhkXGYoE0VnrEQ=",
+    "lb": false
+  },
+  {
+    "channel": "938",
+    "epg_name": "ndr_blue",
+    "title": "NDR Blue",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/ndr_blue.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=SAohic0hDOVj9dDyKZ4L0rZZNo3093QppL3OEw7ndoI=",
+    "lb": false
+  },
+  {
+    "channel": "939",
+    "epg_name": "fantasy",
+    "title": "Radio Fantasy",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/fantasy.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=-1npCm_WuvGnTo1Q3mOFpyzqGllJMus0IAf3_6L8B1o=",
+    "lb": false
+  },
+  {
+    "channel": "940",
+    "epg_name": "radio1",
+    "title": "Radio 1",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/radio1.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=SDE21LVx2pYkf7wgdoN7JRGjWk5MA9jT8A28oPSkQhc=",
+    "lb": false
+  },
+  {
+    "channel": "941",
+    "epg_name": "fm_plus",
+    "title": "FM+",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/fm_plus.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=lm6ZD57hZIWAHHKvEmBuEZBalGdeSGp2YsxCtJgoN3k=",
+    "lb": false
+  },
+  {
+    "channel": "942",
+    "epg_name": "melody",
+    "title": "Melody",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/melody.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=n8euL1sfMtZVcuT6bOgtklNbCnz8npiCUBjAdrdIojY=",
+    "lb": false
+  },
+  {
+    "channel": "943",
+    "epg_name": "magic_fm",
+    "title": "Magic FM",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/magic_fm.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=cmWw_E7z62YOCvpGPRkWXZWewYlhf3g2TVPmUGF0tp0=",
+    "lb": false
+  },
+  {
+    "channel": "944",
+    "epg_name": "maq",
+    "title": "Radio Maq",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/maq.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=aTkoWoegnt1fy20FymMNEzuOrL3y7fRIfzcUC1tomNw=",
+    "lb": false
+  },
+  {
+    "channel": "945",
+    "epg_name": "power_fm",
+    "title": "Power FM",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/power_fm.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=3ouCdmxXji3qLVh-6Awzbncj3oXRcz3P8R_haAkKRRc=",
+    "lb": false
+  },
+  {
+    "channel": "949",
+    "epg_name": "radio5_npo",
+    "title": "Radio5 nostalgia",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/radio5_npo.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=nQYXUZvLh5ae2jKvyV4nT2xRHAkSlMVIdeiUj2_nVEE=",
+    "lb": false
+  },
+  {
+    "channel": "951",
+    "epg_name": "raven_radio",
+    "title": "Raven Radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/raven_radio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=3IqdxpBKO88bIPgJZeS9FrgAQVFYHcUCP-7CSt236AU=",
+    "lb": false
+  },
+  {
+    "channel": "956",
+    "epg_name": "100_hit_radio",
+    "title": "100 HIT radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/100_hit_radio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=mPnkgj7O5G-tnJ5x_iik3OTkzZL3ZBgGn3fG8fPdX5M=",
+    "lb": false
+  },
+  {
+    "channel": "957",
+    "epg_name": "4u_80s",
+    "title": "4U 80s",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/4u_80s.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=UssGgmO3N2DooVLe9Dq3_nIH0IrT5YzPB1H5NGUN-hk=",
+    "lb": false
+  },
+  {
+    "channel": "965",
+    "epg_name": "classic_fm",
+    "title": "Classic FM",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/classic_fm.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=xkAGeU8-cCM-8GZWE17p8jxxq15Tn-agcccaJCffm3U=",
+    "lb": false
+  },
+  {
+    "channel": "969",
+    "epg_name": "zrock",
+    "title": "zrock",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/zrock.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=v41IwVTPhPrPqb8gtlQ7RyY3HGwMNH51m6gKFgvYAkY=",
+    "lb": false
+  },
+  {
+    "channel": "970",
+    "epg_name": "tangramegarock",
+    "title": "tangramegarock",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-8.iptv.bulsat.com/radio/tangramegarock.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=mePf9HoUhyFZy-vxGDYbSWKmGeV2PqFvpYn1S88wZMA=",
+    "lb": false
+  },
+  {
+    "channel": "972",
+    "epg_name": "radio1rock",
+    "title": "radio1rock",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/radio1rock.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=ww-mJ6seITO9cD4-fjeFGldrysbYI42cUojadBMpXzQ=",
+    "lb": false
+  },
+  {
+    "channel": "981",
+    "epg_name": "one_hip_hop",
+    "title": "One Hip Hop",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/one_hip_hop.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=zZTR0b8u15vhuLNHDt3yIZQ-CZdpLYn-itKRX7G2A90=",
+    "lb": false
+  },
+  {
+    "channel": "988",
+    "epg_name": "house_music_radio",
+    "title": "House Music radio",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/house_music_radio.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=dw0xr9sbKJNWV61uQ-Sw1rf99qQPux-Gk1et46KCLSI=",
+    "lb": false
+  },
+  {
+    "channel": "991",
+    "epg_name": "jazzfm",
+    "title": "jazzfm",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-50.iptv.bulsat.com/radio/jazzfm.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=Tqg2_rO58sme17FkHijkayvcXcx32mePZQBk8urwyZo=",
+    "lb": false
+  },
+  {
+    "channel": "994",
+    "epg_name": "juzni_vetar",
+    "title": "Juzni Vetar",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/juzni_vetar.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=E6Bz3wqV8fwkEyLwyUFs2L71nnV8hyAMocg02pDX_sc=",
+    "lb": false
+  },
+  {
+    "channel": "996",
+    "epg_name": "argosaronikos",
+    "title": "radio Argosaronikos",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/argosaronikos.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=BzrWo0lazZU5z288iYTwqhQOj2_xg1EvZi9rmyYVsqo=",
+    "lb": false
+  },
+  {
+    "channel": "998",
+    "epg_name": "kalamariafm",
+    "title": "kalamariafm",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/radio/kalamariafm.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=CB2fjUQdY0Meki-E2_O3bbyUhIpGn6RUqxS-Z9dHoWs=",
+    "lb": false
+  },
+  {
+    "channel": "999",
+    "epg_name": "sky_radio_greece",
+    "title": "SKY radio Greece",
+    "genre": "Радио",
+    "radio": true,
+    "sources": "https://edge-sf-3.iptv.bulsat.com/radio/sky_radio_greece.stream/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=eD_sjr4XonAQaBkzv9H60YoXH8tVM_Z8bHKnuIFZ3Y0=",
+    "lb": false
+  },
+  {
+    "channel": "1000",
+    "epg_name": "bulsatinfo",
+    "title": "Bulsat Info Channel",
+    "genre": "Радио",
+    "radio": false,
+    "sources": "https://edge-sf-1.iptv.bulsat.com/tv228/smil:bulsatinfo_mobile.smil/playlist.m3u8?bulsatCustomParameter=57936_3561768_57936_NULL_pcweb_0f3cf386c6cfa2366b59ef682afca392_&bulsatendtime=1511227629&bulsatstarttime=1511191329&bulsathash=HxOgWPbQWyDoErkKI6bO74Jfz-p1VRMAkz8PLb2x3CM=",
+    "lb": false
+  }
+]
