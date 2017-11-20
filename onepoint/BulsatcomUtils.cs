@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using onepoint.Models;
 
 namespace onepoint
 {
@@ -22,19 +23,14 @@ namespace onepoint
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
             headers.Add("Accept", "*/*");
             headers.Add("Accept-Language", "bg-BG,bg;q=0.8,en;q=0.6");
-            headers.Add("Accept-Encoding", "gzip, deflate, br");
+            headers.Add("Accept-Encoding", "utf-8");
             headers.Add("Referer", "https://test.iptv.bulsat.com/iptv-login.php");
             headers.Add("Origin", "https://test.iptv.bulsat.com");
             headers.Add("Connection", "keep-alive");
             #endregion Set Request Headers
         }
     }
-
-    public class Channel
-    {
-        [JsonProperty("source")]
-        public string Source { get; set; }
-    }
+    
 
     public class BulsatcomUtils
     {
@@ -43,8 +39,6 @@ namespace onepoint
         private readonly string _baseUrl;
         private string _challengeKey;
         private string _ssbulsatapiKey;
-
-        private JObject jsonData;
 
 
         public BulsatcomUtils(string baseUrl)
@@ -104,84 +98,80 @@ namespace onepoint
             return false;
         }
         
-        public async Task<bool> ChannelAsync()
+        public async Task<List<ChannelModel>> ChannelAsync()
         {
-            // Make the m3u call
+            // Make the channels call
             using (var client = new HttpClient())
             {
                 #region Set Request Headers
                 client.DefaultRequestHeaders.AddBulsatcomHeaders();
                 client.DefaultRequestHeaders.Add("Access-Control-Request-Headers", "ssbulsatapi");
                 client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
+                client.DefaultRequestHeaders.Add("accept", "Application/JSON");
                 #endregion Set Request Headers
                 using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/tv/pcweb/live"))
                 {
                     var response = await client.SendAsync(request);
-
-                    // get m3u json data
+                    
                     if (response.StatusCode == HttpStatusCode.OK)
                     {
-                        var data = response.Content.ReadAsStringAsync().Result;
-                        try
-                        {
-                            var result = JsonConvert.DeserializeObject<List<Channel>>(data);
-                            jsonData = JObject.Parse(data);
+                        var result = response.Content.ReadAsStringAsync().Result;
 
-                            if (jsonData.Count > 0) return true;
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e);
-                            throw;
-                        }
+                        var channels = JsonConvert.DeserializeObject<List<ChannelModel>>(result);
+                        return channels;
                     }
                 }
             }
 
-            return false;
+            return null;
         }
 
 
-        public async Task<bool> EPGAsync()
+        public async Task<List<ChannelModel>> EPGAsync(List<ChannelModel> channels)
         {
-            // request epg for all channels
-            for (int i = 0; i < jsonData.Count; i++)
+            // request epg for every channel
+            for (int i = 0; i < channels.Count; i++)
             {
-                string epg_name = jsonData[i]["epg_name"].ToString();
-
-                // Make the epg call
-                using (var client = new HttpClient())
+                // make call only if there is program for nownext in channel which come whit channale request
+                if (channels[i].program != null && channels[i].program.title.Length > 0)
                 {
-                    #region Set Request Headers
-                    client.DefaultRequestHeaders.AddBulsatcomHeaders();
-                    client.DefaultRequestHeaders.Add("Access-Control-Request-Headers", "ssbulsatapi");
-                    client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
-                    #endregion Set Request Headers
-                    using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/epg/short"))
+                    using (var client = new HttpClient())
                     {
-                        var postValues = new Dictionary<string, string>()
+                        #region Set Request Headers
+                        client.DefaultRequestHeaders.AddBulsatcomHeaders();
+                        client.DefaultRequestHeaders.Add("Access-Control-Request-Headers", "ssbulsatapi");
+                        client.DefaultRequestHeaders.Add("SSBULSATAPI", _ssbulsatapiKey);
+                        #endregion Set Request Headers
+                        using (var request = new HttpRequestMessage(HttpMethod.Post, $"{_baseUrl}/epg/short"))
                         {
-                            { "epg", "1week"},
-                            { "channel", epg_name}
+                            // 'nownext' / '1day' / '1week'
+                            var postValues = new Dictionary<string, string>()
+                        {
+                            { "epg", "1day"},
+                            { "channel", channels[i].epg_name}
                         };
 
-                        request.Content = new FormUrlEncodedContent(postValues);
-                        var response = await client.SendAsync(request);
+                            request.Content = new FormUrlEncodedContent(postValues);
+                            var response = await client.SendAsync(request);
 
-                        // get epg json data for channel
-                        if (response.StatusCode == HttpStatusCode.OK)
-                        {
-                            var data = response.Content.ReadAsStringAsync().Result;
-                            JObject jsonItem = JObject.Parse(data);
+                            if (response.StatusCode == HttpStatusCode.OK)
+                            {
+                                var result = response.Content.ReadAsStringAsync().Result;
 
-                            // add program json to m3u list item json
-                            jsonData[i]["program"] = jsonItem[0][1]["programme"];
+                                var epg = JsonConvert.DeserializeObject<EpgModel>(JObject.Parse(result)[channels[i].epg_name].ToString());
+
+                                // fix for missing epg dummy records from server which have epg record, but dont have epg data
+                                if (epg.programme.Count > 0 && epg.programme[0].title.Length > 0)
+                                {
+                                    channels[i].epg = epg;
+                                }
+                            }
                         }
                     }
                 }
             }
 
-            return true;
+            return channels;
         }
 
 

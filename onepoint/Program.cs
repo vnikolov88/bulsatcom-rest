@@ -29,9 +29,14 @@ namespace onepoint
                     var result = await bulsatcom.AuthenticateAsync(options.Username, options.Password);
                     if (result)
                     {
-                        // TODO: Get the channel list
-                        result = await bulsatcom.ChannelAsync();
-                        result = await bulsatcom.EPGAsync();
+                        // get all channels
+                        var chanels = await bulsatcom.ChannelAsync();
+
+                        // add epg for every channel
+                        if (chanels.Count > 0)
+                        {
+                            chanels = await bulsatcom.EPGAsync(chanels);
+                        }
                     }
 
                     // Note: wait from a min to 2 hours on each update
