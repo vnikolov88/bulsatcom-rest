@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using onepoint.Services;
 
 namespace onepoint
 {
@@ -16,6 +17,7 @@ namespace onepoint
         public string BaseUrl { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public string ChannelRemapBaseUrl { get; set; }
     }
 
     public class Startup
@@ -32,6 +34,9 @@ namespace onepoint
         {
             services.AddOptions();
             services.Configure<ConfigOptions>(Configuration.GetSection("ConfigOptions"));
+
+            services.AddSingleton<ChannelService>();
+
             services.AddMvc();
         }
 

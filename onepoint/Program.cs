@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using onepoint.Services;
 
 namespace onepoint
 {
@@ -20,6 +23,8 @@ namespace onepoint
             var optionsProvider =
                 (webHost.Services.GetService(typeof(IOptions<ConfigOptions>)) as IOptions<ConfigOptions>);
             var options = optionsProvider?.Value;
+            var channelService =
+                (webHost.Services.GetService(typeof(ChannelService)) as ChannelService);
             Task.Run(async () =>
             {
                 var random = new Random();
@@ -29,14 +34,18 @@ namespace onepoint
                     var result = await bulsatcom.AuthenticateAsync(options.Username, options.Password);
                     if (result)
                     {
+                        
                         // get all channels
-                        var chanels = await bulsatcom.ChannelAsync();
-
+                        var channels = await bulsatcom.ChannelAsync();
                         // add epg for every channel
-                        if (chanels.Count > 0)
+                        if (channels.Count > 0)
                         {
-                            chanels = await bulsatcom.EPGAsync(chanels);
+                            channels = await bulsatcom.EPGAsync(channels);
                         }
+
+                        channelService?.UpdateChannels(channels);
+
+                        Console.WriteLine($"[{DateTime.Now.ToShortTimeString()}]Channel list updated with {channels?.Count ?? 0}");
                     }
 
                     // Note: wait from a min to 2 hours on each update
@@ -49,6 +58,11 @@ namespace onepoint
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseKestrel(options =>
+                    {
+                        options.AddServerHeader = false;
+                    }
+                )
                 .UseStartup<Startup>()
                 .Build();
     }
