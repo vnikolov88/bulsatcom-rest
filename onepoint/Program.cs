@@ -44,6 +44,7 @@ namespace onepoint
                         }
 
                         channelService?.UpdateChannels(channels);
+                        channelService?.setChannels(channels);
 
                         Console.WriteLine($"[{DateTime.Now.ToShortTimeString()}]Channel list updated with {channels?.Count ?? 0}");
                     }

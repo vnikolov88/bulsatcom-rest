@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace onepoint.Models
+namespace onepoint.Models.Epg
 {
     public class EpgModel
     {

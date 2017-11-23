@@ -1,8 +1,11 @@
-﻿using System;
+﻿using onepoint.Models;
+using onepoint.Models.Channel;
+using onepoint.Models.Epg;
+using System;
 using System.Collections.Generic;
 using System.Xml.Linq;
 
-namespace onepoint.Models.Epg
+namespace onepoint.Helpers
 {
     public class XmlHelper
     {
