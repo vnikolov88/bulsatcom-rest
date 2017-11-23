@@ -148,7 +148,7 @@ namespace onepoint
                             // 'nownext' / '1day' / '1week'
                             var postValues = new Dictionary<string, string>()
                         {
-                            { "epg", "1day"},
+                            { "epg", "1week"},
                             { "channel", channels[i].epg_name}
                         };
 

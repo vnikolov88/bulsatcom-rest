@@ -10,12 +10,18 @@ namespace onepoint.Controllers
         [HttpGet("api/[controller]/get/epg.xml")]
         public IActionResult get([FromServices] ChannelService channelService)
         {
-            if (channelService.getChannels().Count > 0)
+            XmlEpgHelper xmlEpgHelper = new XmlEpgHelper();
+
+            if (xmlEpgHelper.loadXml() == true)
             {
-                XElement xml = XmlHelper.generateXml(channelService.getChannels());
+                return Content(xmlEpgHelper.doc.ToString(), "text/xml");
+            }
+            else if (xmlEpgHelper.createXml(channelService.getChannels()) == true)
+            {
+                return Content(xmlEpgHelper.doc.ToString(), "text/xml");
             }
             
-            return View();
+            return NotFound();
         }
     }
 }
