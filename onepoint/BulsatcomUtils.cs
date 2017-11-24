@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using onepoint.Models;
+using onepoint.Models.Channel;
 
 namespace onepoint
 {
@@ -147,7 +148,7 @@ namespace onepoint
                             // 'nownext' / '1day' / '1week'
                             var postValues = new Dictionary<string, string>()
                         {
-                            { "epg", "1day"},
+                            { "epg", "1week"},
                             { "channel", channels[i].epg_name}
                         };
 
@@ -158,7 +159,7 @@ namespace onepoint
                             {
                                 var result = response.Content.ReadAsStringAsync().Result;
 
-                                var epg = JsonConvert.DeserializeObject<EpgModel>(JObject.Parse(result)[channels[i].epg_name].ToString());
+                                var epg = JsonConvert.DeserializeObject<Models.Epg.EpgModel>(JObject.Parse(result)[channels[i].epg_name].ToString());
 
                                 // fix for missing epg dummy records from server which have epg record, but dont have epg data
                                 if (epg.programme.Count > 0 && epg.programme[0].title.Length > 0)

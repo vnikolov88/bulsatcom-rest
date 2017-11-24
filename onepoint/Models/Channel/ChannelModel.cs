@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
+using onepoint.Models.Epg;
 
-namespace onepoint.Models
+namespace onepoint.Models.Channel
 {
     public class ChannelModel
     {

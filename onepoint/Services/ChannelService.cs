@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using onepoint.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using onepoint.Models.Channel;
 
 namespace onepoint.Services
 {
     public class ChannelService
     {
+        private List<ChannelModel> channels;
         private readonly ConcurrentDictionary<string, ChannelModel> _channels;
         private string _channelsCache;
         private readonly string _channelRemapBaseUrl;
@@ -45,6 +43,16 @@ namespace onepoint.Services
         {
             _channels.TryGetValue(epgName, out var result);
             return result;
+        }
+
+        public void setChannels(List<ChannelModel> channels)
+        {
+            this.channels = channels;
+        }
+
+        public List<ChannelModel> getChannels()
+        {
+            return channels;
         }
     }
 }

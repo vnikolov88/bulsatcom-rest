@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using onepoint.Services;
+using onepoint.Helpers;
 
 namespace onepoint
 {
@@ -37,13 +38,19 @@ namespace onepoint
                         
                         // get all channels
                         var channels = await bulsatcom.ChannelAsync();
+
                         // add epg for every channel
-                        if (channels.Count > 0)
+                        XmlEpgHelper xmlEpgHelper = new XmlEpgHelper();
+                        if (xmlEpgHelper.loadXml() == false)
                         {
-                            channels = await bulsatcom.EPGAsync(channels);
+                            if (channels.Count > 0)
+                            {
+                                channels = await bulsatcom.EPGAsync(channels);
+                            }
                         }
 
                         channelService?.UpdateChannels(channels);
+                        channelService?.setChannels(channels);
 
                         Console.WriteLine($"[{DateTime.Now.ToShortTimeString()}]Channel list updated with {channels?.Count ?? 0}");
                     }
