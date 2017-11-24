@@ -1,22 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.IO;
 
 namespace onepoint.Controllers
 {
     public class LogoController : Controller
     {
-        [HttpGet("api/[controller]/get/{id}")]
-        public IActionResult get(string id)
+
+
+        // GET logo/get/key
+        [HttpGet("api/[controller]/get/{name}")]
+        public IActionResult Get(string name)
         {
-            if (id == null)
+            if (name != null && name.Length > 0)
             {
-                return NotFound();
-            }
+                if (!name.ToLower().Contains(".png"))
+                {
+                    name = name + ".png";
+                }
 
-            var image = System.IO.File.OpenRead(@".\Resources\Images\logos\" + id);
+                FileStream image = System.IO.File.OpenRead(@".\Resources\Images\logos" + Path.DirectorySeparatorChar + name);
 
-            if (image != null)
-            {
-                return File(image, "image/png");
+                if (image != null)
+                {
+                    return File(image, "image/png", name);
+                }
             }
 
             return NotFound();

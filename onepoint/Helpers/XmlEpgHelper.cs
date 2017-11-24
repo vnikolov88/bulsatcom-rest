@@ -3,6 +3,7 @@ using onepoint.Models.Epg;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Xml.Linq;
 
 namespace onepoint.Helpers
@@ -12,6 +13,7 @@ namespace onepoint.Helpers
         private string filePath = @".\Resources\data";
         private string fileName = "epg";
         private string extXml = ".xml";
+        private string extGz = ".gz";
 
         public XDocument doc { get; set; }
 
@@ -53,11 +55,20 @@ namespace onepoint.Helpers
                 doc = new XDocument(new XDeclaration("1.0", "UTF-8", "yes"), tvElement);
                 // save
                 saveXml();
+                saveZip();
                 return true;
             }
 
             return false;
         }
+
+
+        /// <summary>
+        /// 
+        /// XML
+        /// 
+        /// </summary>
+        /// <returns></returns>
 
 
         public bool saveXml()
@@ -70,6 +81,7 @@ namespace onepoint.Helpers
 
             return false;
         }
+
 
 
         public bool loadXml()
@@ -112,6 +124,50 @@ namespace onepoint.Helpers
             }
 
             return false;
+        }
+
+        /// <summary>
+        /// 
+        /// GZip
+        /// 
+        /// </summary>
+        /// <returns></returns>
+
+
+        public bool saveZip()
+        {
+            if (File.Exists(filePath + Path.DirectorySeparatorChar + fileName + extXml) == true)
+            {
+                FileStream file = File.OpenRead(filePath + Path.DirectorySeparatorChar + fileName + extXml);
+                FileStream fileGz = File.Create(filePath + Path.DirectorySeparatorChar + fileName + extXml + extGz);
+
+                byte[] buffer = new byte[file.Length];
+                file.Read(buffer, 0, buffer.Length);
+
+                using (GZipStream output = new GZipStream(fileGz, CompressionMode.Compress))
+                {
+                    output.Write(buffer, 0, buffer.Length);
+                }
+
+                // Close the files.
+                file.Close();
+                fileGz.Close();
+
+                return true;
+            }
+
+            return false;
+        }
+
+
+        public FileStream getZip()
+        {
+            if (File.Exists(filePath + Path.DirectorySeparatorChar + fileName + extXml + extGz) == true)
+            {
+                return File.OpenRead(filePath + Path.DirectorySeparatorChar + fileName + extXml + extGz);
+            }
+
+            return null;
         }
     }
 }
