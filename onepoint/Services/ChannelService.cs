@@ -22,13 +22,13 @@ namespace onepoint.Services
 
         public void UpdateChannels(List<ChannelModel> channels)
         {
-            var tempChannelCache = "#EXTM3U tvg-shift=2"; // This indicates the TV is in GMT+2
+            var tempChannelCache = "#EXTM3U"; // This indicates the TV is in GMT+2
             foreach (var channel in channels)
             {
                 // Update channel list
                 _channels.AddOrUpdate(channel.epg_name, channel, (key, next) => channel);
                 // Update channel cache
-                tempChannelCache += $"\n#EXTINF:-1 tvg-id=\"{channel.epg_name}\" tvg-name=\"{channel.title}\" tvg-logo=\"{channel.epg?.num}\" group-title=\"{channel.genre}\",{channel.title}\n" +
+                tempChannelCache += $"\n#EXTINF:-1 tvg-id=\"{channel.epg_name}\" tvg-name=\"{channel.title}\" tvg-logo=\"{channel.epg_name}\" group-title=\"{channel.genre}\",{channel.title}\n" +
                                     $"{_channelRemapBaseUrl}/{channel.epg_name}.m3u8";
             }
             _channelsCache = tempChannelCache;
