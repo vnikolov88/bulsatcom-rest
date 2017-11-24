@@ -28,7 +28,7 @@ namespace onepoint.Services
                 // Update channel list
                 _channels.AddOrUpdate(channel.epg_name, channel, (key, next) => channel);
                 // Update channel cache
-                tempChannelCache += $"\n#EXTINF:-1 tvg-id=\"{channel.epg_name}\" tvg-name=\"{channel.title}\" tvg-logo=\"{channel.epg_name}\" group-title=\"{channel.genre}\",{channel.title}\n" +
+                tempChannelCache += $"\n#EXTINF:-1 radio=\"{channel.radio}\" tvg-id=\"{channel.epg_name}\" tvg-name=\"{channel.title}\" tvg-logo=\"{channel.epg_name + ".png"}\" group-title=\"{channel.genre}\",{channel.title}\n" +
                                     $"{_channelRemapBaseUrl}/{channel.epg_name}.m3u8";
             }
             _channelsCache = tempChannelCache;
