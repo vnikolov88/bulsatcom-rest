@@ -11,7 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/",
+      "launchUrl": "ls.m3u8",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -19,7 +19,7 @@
     "onepoint": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "channels/list.m3u8",
+      "launchUrl": "ls.m3u8",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
