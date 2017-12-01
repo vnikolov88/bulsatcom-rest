@@ -1,18 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using onepoint.Helpers;
 using onepoint.Services;
-using System;
 using System.IO;
 
 namespace onepoint.Controllers
 {
     public class EpgController : Controller
     {
+        [HttpGet("/epg.xml.gz")]
+        public IActionResult GetZip()
+        {
+            XmlEpgHelper xmlEpgHelper = new XmlEpgHelper();
 
+            FileStream zip = xmlEpgHelper.getZip();
 
-        // GET epg/get/xml
-        [HttpGet("api/[controller]/get/xml/{days}")]
-        public IActionResult GetXml([FromServices] ChannelService channelService, string days)
+            if (zip != null)
+            {
+                return File(zip, "application/x-gzip");
+            }
+
+            return NotFound();
+        }
+
+        [HttpGet("/epg.xml")]
+        public IActionResult GetXml([FromServices] ChannelService channelService)
         {
             XmlEpgHelper xmlEpgHelper = new XmlEpgHelper();
 
@@ -25,29 +36,6 @@ namespace onepoint.Controllers
                 return Content(xmlEpgHelper.doc.ToString(), "text/xml");
             }
             
-            return NotFound();
-        }
-
-
-        /// <summary>
-        /// 
-        /// Many IPTV client support archived epg
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        // GET epg/get/zip
-        [HttpGet("api/[controller]/get/zip/{days}")]
-        public IActionResult GetZip(string days)
-        {
-            XmlEpgHelper xmlEpgHelper = new XmlEpgHelper();
-
-            FileStream zip = xmlEpgHelper.getZip();
-
-            if (zip != null)
-            {
-                return File(zip, "application/x-gzip", "epg.xml.gz");
-            }
-
             return NotFound();
         }
     }
