@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
-<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+﻿@model onepoint.Models.Home.RegisterModel
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -36,21 +37,37 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card text-white bg-success mb-3 my-5">
-                        <div class="card-header">API key</div>
+                        <div class="card-header">Settings</div>
                         <div class="card-body">
-                            <p>x_3hVnNwXgPDqu3vNwbWa5-sMpMKY5pRwwUDgOAqS1k=</p>
-                            <form>
+                            <p><strong>@Html.LabelFor(m => m.key)</strong></p>
+                            <p>@Model.key</p>
+                            <hr />
+                            @using (Html.BeginForm("Register", "Home", FormMethod.Post))
+                            {
+                                @Html.HiddenFor(m => m.key)
                                 <div class="form-group">
-                                    <label for="inputUser">Bulsat User</label>
-                                    <input type="text" class="form-control" id="inputUser" placeholder="user">
+                                    @Html.LabelFor(m => m.name)
+                                    @Html.TextBoxFor(m => m.name, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.name, "", new { @class = "text-danger" })
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputPassword">Bulsat Password</label>
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="password">
+                                    @Html.LabelFor(m => m.nameConfirm)
+                                    @Html.TextBoxFor(m => m.nameConfirm, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.nameConfirm, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.password)
+                                    @Html.TextBoxFor(m => m.password, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.passwordConfirm)
+                                    @Html.TextBoxFor(m => m.passwordConfirm, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.passwordConfirm, "", new { @class = "text-danger" })
                                 </div>
                                 <br />
                                 <button style="width:100%" type="submit" class="btn btn-primary">Update</button>
-                            </form>
+                            }
                         </div>
                     </div>
                 </div>
@@ -73,7 +90,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="alert alert-info my-5" role="alert">
-                        <strong>Note!</strong> We'll never share your Bulsat User or Password with anyone else.
+                        <p><strong>Note!</strong></p>
+                        <p>We'll never share your Bulsat User or Password with anyone else.</p>
                     </div>
                 </div>
             </div>

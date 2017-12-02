@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
-<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+﻿@model onepoint.Models.Home.LoginModel
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -38,18 +39,21 @@
                     <div class="card bg-light mb-3 my-5">
                         <div class="card-header text-center">Login</div>
                         <div class="card-body">
-                            <form>
+                            @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                            {
                                 <div class="form-group">
-                                    <label for="inputUser">Bulsat User</label>
-                                    <input type="text" class="form-control" id="inputUser" placeholder="user">
+                                    @Html.LabelFor(m => m.name)
+                                    @Html.TextBoxFor(m => m.name, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.name, "", new { @class = "text-danger" })
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputPassword">Bulsat Password</label>
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="password">
+                                    @Html.LabelFor(m => m.password)
+                                    @Html.PasswordFor(m => m.password, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger" })
                                 </div>
                                 <br />
                                 <button style="width:100%" type="submit" class="btn btn-primary">Login</button>
-                            </form>
+                            }
                         </div>
                     </div>
                 </div>
