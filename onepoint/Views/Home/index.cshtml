@@ -1,84 +1,58 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="">
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-3">Welcome to Bulsat API</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a>
+    </div>
+</div>
 
-    <title>Bulsat API</title>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-</head>
-<body style="padding-top: 55px;">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index">Bulsat API</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-sm btn-primary mt-md-1" href="register">API key</a>
-                </li>
-            </ul>
+<div class="container">
+
+    <!-- row -->
+    <div class="row">
+
+        <!-- col -->
+        <div class="col-md-4">
+            <h3>Example m3u</h3>
         </div>
-    </nav>
-    <main role="main">
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-            <div class="container">
-                <h1 class="display-3">Welcome to Bulsat API</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a>
-            </div>
+
+        <!-- col -->
+        <div class="col-md-4">
+            <h3>Example epg</h3>
         </div>
-        <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>Example m3u</h3>
-                </div>
-                <div class="col-md-4">
-                    <h3>Example epg</h3>
-                </div>
-                <div class="col-md-4">
-                    <h3>Example logos</h3>
-                </div>
-            </div>
 
-            <hr />
+        <!-- col -->
+        <div class="col-md-4">
+            <h3>Example logos</h3>
+        </div>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>VLC</h3>
-                </div>
-                <div class="col-md-4">
-                    <h3>KODI</h3>
-                </div>
-                <div class="col-md-4">
-                    <h3>More</h3>
-                </div>
-            </div>
-        </div> <!-- /container -->
-    </main>
+    </div>
 
     <hr />
-    <footer class="container">
-        <p class="text-center">
-            &copy; Company 2017 - <script>document.write(new Date().getFullYear())</script>
-        </p>
-    </footer>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-</body>
-</html>
+
+    <!-- row -->
+    <div class="row">
+
+        <!-- col -->
+        <div class="col-md-4">
+            <h3>VLC</h3>
+        </div>
+
+        <!-- col -->
+        <div class="col-md-4">
+            <h3>KODI</h3>
+        </div>
+
+        <!-- col -->
+        <div class="col-md-4">
+            <h3>More</h3>
+        </div>
+
+    </div>
+
+</div>
