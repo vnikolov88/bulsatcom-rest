@@ -19,11 +19,11 @@
     "onepoint": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "ls.m3u8",
+      "launchUrl": "home/login",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://0.0.0.0:8877/"
+      "applicationUrl": "http://localhost:8877/"
     }
   }
 }

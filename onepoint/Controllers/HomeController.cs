@@ -1,10 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using onepoint.Models.Entities;
 using onepoint.Models.Home;
+using onepoint.Services;
 
 namespace onepoint.Controllers
 {
     public class HomeController : Controller
     {
+        public IRepository<UserAccount> _repository;
+
+        public HomeController(IRepository<UserAccount> repository)
+        {
+            _repository = repository;
+        }
+
         [HttpGet("[controller]/index")]
         public IActionResult Index()
         {
@@ -48,8 +57,12 @@ namespace onepoint.Controllers
         {
             if (ModelState.IsValid)
             {
-                // if user and pass match confirmed
-                // TODO save fields to table
+                _repository.AddOrUpdate(new UserAccount()
+                {
+                    Password = m.password,
+                    Username = m.name
+                });
+                _repository.StoreAsync();
             }
 
             // else return error, not match

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using onepoint.Models.Entities;
 using onepoint.Services;
 
 namespace onepoint
@@ -30,6 +31,7 @@ namespace onepoint
             services.Configure<ConfigOptions>(Configuration.GetSection("ConfigOptions"));
 
             services.AddSingleton<ChannelService>();
+            services.AddSingleton<IRepository<UserAccount>>(new RepositoryService<UserAccount>());
 
             services.AddMvc();
         }
