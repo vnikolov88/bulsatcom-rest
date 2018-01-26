@@ -27,7 +27,7 @@ namespace onepoint.Controllers
         {
             XmlEpgHelper xmlEpgHelper = new XmlEpgHelper();
 
-            if (xmlEpgHelper.loadXml() == true)
+            if (xmlEpgHelper.loadXml(true) != null)
             {
                 return Content(xmlEpgHelper.doc.ToString(), "text/xml");
             }

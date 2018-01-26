@@ -6,18 +6,35 @@
 }
 
 <div class="container">
-
-    <!-- row -->
     <div class="row">
-
-        <!-- col -->
-        <div class="col-sm-4">
-            <div class="card text-white bg-success mb-3 my-5">
+        <div class="col-sm-6">
+            <div class="card text-white bg-secondary w-100 my-5">
                 <div class="card-header">Settings</div>
                 <div class="card-body">
                     <p><strong>@Html.LabelFor(m => m.key)</strong></p>
-                    <p>@Model.key</p>
-                    <hr />
+                    @if (Model.key != null && Model.key.Length > 0)
+                    {
+                        <p>@Model.key</p>
+                    }
+                    else
+                    {
+                        <table style="width:100%">
+                            <tr>
+                                <td>Price:</td>
+                                <td>5 <i class="fas fa-euro-sign"></i></td>
+                                <td><a class="btn btn-danger" style="width:100%"><i class="fas fa-shopping-cart"></i> Buy API KEY</a></td>
+                            </tr>
+                            <tr>
+                                <td>Payments:</td>
+                                <td>PayPal</td>
+                                <td><i class="fab fa-cc-paypal fa-2x"></i> <i class="fab fa-cc-visa fa-2x"></i> <i class="fab fa-cc-mastercard fa-2x"></i> <i class="fab fa-cc-discover fa-2x"></i></td>
+                            </tr>
+                        </table>
+                    }
+                    
+                    <hr  class="my-5" />
+
+                    <p><strong>Credentials</strong></p>
                     @using (Html.BeginForm("Register", "Home", FormMethod.Post))
                     {
                         @Html.HiddenFor(m => m.key)
@@ -41,20 +58,16 @@
                             @Html.TextBoxFor(m => m.passwordConfirm, new { @class = "form-control" })
                             @Html.ValidationMessageFor(m => m.passwordConfirm, "", new { @class = "text-danger" })
                         </div>
-                        
-                        <br />
 
                         <button style="width:100%" type="submit" class="btn btn-primary">
-                            <i class="fa fa-floppy-o"></i> Update
+                            <i class="fas fa-save"></i> Update
                         </button>
                     }
                 </div>
             </div>
         </div>
-
-        <!-- col -->
-        <div class="col-sm-8">
-            <div class="card bg-light mb-3 my-5">
+        <div class="col-sm-6">
+            <div class="card bg-light w-100 my-5">
                 <div class="card-header">URLs</div>
                 <div class="card-body">
                     <p><strong>m3u</strong></p>
@@ -68,20 +81,5 @@
                 </div>
             </div>
         </div>
-
     </div>
-
-    <!-- row -->
-    <div class="row">
-
-        <!-- col -->
-        <div class="col-sm-12">
-            <div class="alert alert-info my-5" role="alert">
-                <p><i class="fa fa-info"></i> <strong>Note!</strong></p>
-                <p>We'll never share your Bulsat User or Password with anyone else.</p>
-            </div>
-        </div>
-
-    </div>
-
 </div>

@@ -17,7 +17,23 @@ namespace onepoint.Controllers
         [HttpGet("[controller]/index")]
         public IActionResult Index()
         {
-            return View();
+            HomeModel model = new HomeModel();
+
+            return View(model);
+        }
+
+        [HttpGet("[controller]/AjaxLive")]
+        public ActionResult AjaxLive()
+        {
+
+
+            return Json("chamara");
+        }
+
+        [HttpGet("[controller]/AjaxNowNext")]
+        public ActionResult AjaxNowNext()
+        {
+            return Json("chamara");
         }
 
         [HttpGet("[controller]/login")]
@@ -47,7 +63,7 @@ namespace onepoint.Controllers
         public IActionResult Register()
         {
             RegisterModel m = new RegisterModel();
-            m.key = "x_3hVnNwXgPDqu3vNwbWa5-sMpMKY5pRwwUDgOAqS1k="; // TODO generate key here
+            //m.key = "x_3hVnNwXgPDqu3vNwbWa5-sMpMKY5pRwwUDgOAqS1k="; // TODO generate key here
 
             return View(m);
         }

@@ -41,7 +41,7 @@ namespace onepoint
 
                         // add epg for every channel
                         XmlEpgHelper xmlEpgHelper = new XmlEpgHelper();
-                        if (xmlEpgHelper.loadXml() == false)
+                        if (xmlEpgHelper.loadXml(true) != null)
                         {
                             if (channels.Count > 0)
                             {

@@ -13,4 +13,18 @@ namespace onepoint.Models.Home
         [DisplayName("Bulsat Password")]
         public string password { get; set; }
     }
+
+    public class RegisterModel : LoginModel
+    {
+        [Required]
+        [DisplayName("Confirm Bulsat User")]
+        public string nameConfirm { get; set; }
+
+        [Required]
+        [DisplayName("Confirm Bulsat Password")]
+        public string passwordConfirm { get; set; }
+
+        [DisplayName("API KEY")]
+        public string key { get; set; }
+    }
 }

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Resources\data\" />
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +18,10 @@
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\poster\the_big_bang_theory.jpg" />
   </ItemGroup>
 
 </Project>

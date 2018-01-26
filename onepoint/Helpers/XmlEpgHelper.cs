@@ -33,6 +33,9 @@ namespace onepoint.Helpers
                     XElement channelElement = new XElement("channel", new XAttribute("id", c.epg_name));
                     channelElement.Add(new XElement("display-name", c.title));
 
+                    // add radio element flag
+                    if (c.radio) channelElement.Add(new XElement("radio", "true"));
+
                     // add channel
                     tvElement.Add(channelElement);
 
@@ -84,7 +87,7 @@ namespace onepoint.Helpers
 
 
 
-        public bool loadXml()
+        public XDocument loadXml(bool checkDateExpire)
         {
             if (File.Exists(filePath + Path.DirectorySeparatorChar + fileName + extXml))
             {
@@ -92,38 +95,45 @@ namespace onepoint.Helpers
                 if (doc != null)
                 {
                     // check if file is to old
-                    foreach (XNode node in doc.DescendantNodes())
+                    if (checkDateExpire)
                     {
-                        if (node is XElement)
+                        foreach (XNode node in doc.DescendantNodes())
                         {
-                            XElement element = (XElement)node;
-                            if (element.Name.LocalName.Equals("tv"))
+                            if (node is XElement)
                             {
-                                XAttribute att = element.Attribute("date");
-                                string date = (string)att;
-
-                                if (date != null && date.Length > 0)
+                                XElement element = (XElement)node;
+                                if (element.Name.LocalName.Equals("tv"))
                                 {
-                                    TimeSpan t = DateTime.UtcNow - new DateTime(1970, 1, 1);
-                                    double secondsSinceEpoch = t.TotalSeconds;
+                                    XAttribute att = element.Attribute("date");
+                                    string date = (string)att;
 
-                                    double secondsSinceEpochFileCreate = double.Parse(date, System.Globalization.CultureInfo.InvariantCulture);
-
-                                    // file is not older then 5 days, so we can use it
-                                    // as we have data for 7 days inside
-                                    if (secondsSinceEpoch - secondsSinceEpochFileCreate < 60 * 60 * 24 * 5)
+                                    if (date != null && date.Length > 0)
                                     {
-                                        this.doc = doc;
-                                        return true;
+                                        TimeSpan t = DateTime.UtcNow - new DateTime(1970, 1, 1);
+                                        double secondsSinceEpoch = t.TotalSeconds;
+
+                                        double secondsSinceEpochFileCreate = double.Parse(date, System.Globalization.CultureInfo.InvariantCulture);
+
+                                        // file is not older then 5 days, so we can use it
+                                        // as we have data for 7 days inside
+                                        if (secondsSinceEpoch - secondsSinceEpochFileCreate < 60 * 60 * 24 * 5)
+                                        {
+                                            this.doc = doc;
+                                            return doc;
+                                        }
                                     }
                                 }
                             }
                         }
                     }
+                    else
+                    {
+                        return doc;
+                    }
                 }
             }
 
-            return false;
+            return null;
         }
 
         /// <summary>
